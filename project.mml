@@ -1,0 +1,157 @@
+{
+  "bounds": [
+    2.2497,
+    48.8144,
+    2.4241,
+    48.9032
+  ],
+  "center": [
+    2.3463,
+    48.8657,
+    13
+  ],
+  "format": "png",
+  "interactivity": {
+    "layer": "camerasousu",
+    "template_teaser": "Caméra {{{apparence}}} / {{{op_type}}} / {{{title}}} / {{{op_name}}}",
+    "fields": [
+      "apparence",
+      "op_type",
+      "title",
+      "op_name"
+    ]
+  },
+  "minzoom": 13,
+  "maxzoom": 16,
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+  "Stylesheet": [
+    "style.mss"
+  ],
+  "Layer": [
+    {
+      "geometry": "polygon",
+      "extent": [
+        1.3931872,
+        48.1131476,
+        3.5762571,
+        49.2379163
+      ],
+      "id": "natural",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/benoitpro/Downloads/TillMill/ile-de-france-latest.shp/natural.shp",
+        "id": "natural",
+        "project": "Sous-Surveillance_Paris_Private-Public",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "natural"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        1.3133351,
+        48.0380413,
+        3.5920382,
+        49.2412147
+      ],
+      "id": "Paris_roads",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/benoitpro/Downloads/TillMill/ile-de-france-latest.shp/roads.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "Paris_roads"
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        2.2344441605745238,
+        48.815889048888906,
+        2.4434594881515177,
+        48.92802774176566
+      ],
+      "id": "cameras_pref",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/benoitpro/Downloads/TillMill/Camera_WGS84.shp",
+        "id": "cameras_pref",
+        "project": "Sous-Surveillance_Paris_Private-Public",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "cameras_pref"
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        -122.413666,
+        43.11348412994787,
+        7.452281713485721,
+        49.9456244122861
+      ],
+      "id": "Paris_cam_soussu",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/benoitpro/Downloads/TillMill/json_Sous-surveillance.json",
+        "id": "Paris_cam_soussu",
+        "project": "Sous-Surveillance_Paris_Private-Public",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "Paris_cam_soussu",
+      "status": "off"
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        -122.413666,
+        43.11348412994787,
+        7.452281713485721,
+        49.9456244122861
+      ],
+      "id": "camerasousu",
+      "class": "",
+      "Datasource": {
+        "file": "http://www.sous-surveillance.net/?page=cameras&format=json"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "camerasousu"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -180,
+        -85.051,
+        180,
+        85.051
+      ],
+      "id": "background",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/benoitpro/Downloads/TillMill/world_extent_wgs84.geojson"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "background",
+      "status": "off"
+    }
+  ],
+  "scale": 1,
+  "metatile": 1,
+  "name": "Sous_Surveillance_TileMill",
+  "description": "Go on http://paris.sous-surveillance.net to get more infos.",
+  "attribution": "",
+  "legend": "<strong>Sous-Surveillance Paris.</strong><br/>Private/Public/Unmapped cctv cameras. <br />\n<span style='color:#4976ff'><strong>•</strong></span> Private <br />\n<span style='color:#ca2222'><strong>•</strong></span> Public <br />\n<span style='color:#166124'><strong>•</strong></span> Prefecture (unmaped on Sous-Surveillance)<br /> \n<span style='color:#bac922'><strong>•</strong></span> Not specified "
+}
