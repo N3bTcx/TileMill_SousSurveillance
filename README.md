@@ -2,7 +2,7 @@
 
 ### Screenshot
 
-![Screenshot](https://github.com/N3bTcx/TileMill_SousSurveillance/blob/master/Sous-Surveillance_Paris_Private-Public.png)
+![Screenshot](Sous-Surveillance_Paris_Private-Public.png)
 
 ### Use this map
 
