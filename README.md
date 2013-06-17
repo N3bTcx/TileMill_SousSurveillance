@@ -11,6 +11,11 @@
 ### Get the files
 
 Click on [this adress](http://www.mapbox.com/tilemill/) to download TileMill, and download the files from here (zip or `git clone`). 
+
+### Discussion on the map
+
+Check the discussion and feedbacks on the support forum of MapBox : [Feedbacks needed for my first map](http://support.mapbox.com/discussions/tilemill/6675-feedbacks-needed-for-my-first-map)
     
-### License:
+### License and contact
 Public Domain. I don't care. Have fun.
+Ping me on IRC `irc.indymedia.org` `#sous-surveillance`. Nickname `n3b`
