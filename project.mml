@@ -29,6 +29,24 @@
   ],
   "Layer": [
     {
+      "geometry": "linestring",
+      "extent": [
+        1.3761216,
+        48.024134200000006,
+        3.6163678000000004,
+        49.338861
+      ],
+      "id": "arrondissements",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/benoitpro/Downloads/TillMill/ile-de-france.shapefiles/ile-de-france_administrative.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "arrondissements"
+    },
+    {
       "geometry": "polygon",
       "extent": [
         1.3931872,
@@ -50,6 +68,61 @@
       "name": "natural"
     },
     {
+      "geometry": "polygon",
+      "extent": [
+        1.4133042,
+        47.9764742,
+        3.5224014,
+        49.2764229
+      ],
+      "id": "landuse",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/benoitpro/Downloads/TillMill/ile-de-france-latest.shp/landuse.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "landuse"
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        1.4616005,
+        48.1292013,
+        3.5184112,
+        49.2350442
+      ],
+      "id": "places",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/benoitpro/Downloads/TillMill/ile-de-france-latest.shp/places.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "places"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -180,
+        -85.051,
+        180,
+        85.051
+      ],
+      "id": "background",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/benoitpro/Downloads/TillMill/world_extent_wgs84.geojson"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "background",
+      "status": "off"
+    },
+    {
       "geometry": "linestring",
       "extent": [
         1.3133351,
@@ -60,7 +133,10 @@
       "id": "Paris_roads",
       "class": "",
       "Datasource": {
-        "file": "/Users/benoitpro/Downloads/TillMill/ile-de-france-latest.shp/roads.shp"
+        "file": "/Users/benoitpro/Downloads/TillMill/ile-de-france-latest.shp/roads.shp",
+        "id": "Paris_roads",
+        "project": "Sous-Surveillance_Paris_Private-Public",
+        "srs": ""
       },
       "srs-name": "autodetect",
       "srs": "",
@@ -96,28 +172,6 @@
         7.452281713485721,
         49.9456244122861
       ],
-      "id": "Paris_cam_soussu",
-      "class": "",
-      "Datasource": {
-        "file": "/Users/benoitpro/Downloads/TillMill/json_Sous-surveillance.json",
-        "id": "Paris_cam_soussu",
-        "project": "Sous-Surveillance_Paris_Private-Public",
-        "srs": ""
-      },
-      "srs-name": "autodetect",
-      "srs": "",
-      "advanced": {},
-      "name": "Paris_cam_soussu",
-      "status": "off"
-    },
-    {
-      "geometry": "point",
-      "extent": [
-        -122.413666,
-        43.11348412994787,
-        7.452281713485721,
-        49.9456244122861
-      ],
       "id": "camerasousu",
       "class": "",
       "Datasource": {
@@ -127,25 +181,6 @@
       "srs": "",
       "advanced": {},
       "name": "camerasousu"
-    },
-    {
-      "geometry": "polygon",
-      "extent": [
-        -180,
-        -85.051,
-        180,
-        85.051
-      ],
-      "id": "background",
-      "class": "",
-      "Datasource": {
-        "file": "/Users/benoitpro/Downloads/TillMill/world_extent_wgs84.geojson"
-      },
-      "srs-name": "autodetect",
-      "srs": "",
-      "advanced": {},
-      "name": "background",
-      "status": "off"
     }
   ],
   "scale": 1,
