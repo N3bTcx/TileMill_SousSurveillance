@@ -39,7 +39,7 @@
       "id": "arrondissements",
       "class": "",
       "Datasource": {
-        "file": "/Users/benoitpro/Downloads/TillMill/ile-de-france.shapefiles/ile-de-france_administrative.shp"
+        "file": "http://github.com/N3bTcx/TileMill_SousSurveillance/blob/master/layers/ile-de-france_administrative.shp"
       },
       "srs-name": "autodetect",
       "srs": "",
@@ -57,7 +57,7 @@
       "id": "natural",
       "class": "",
       "Datasource": {
-        "file": "/Users/benoitpro/Downloads/TillMill/ile-de-france-latest.shp/natural.shp",
+        "file": "http://github.com/N3bTcx/TileMill_SousSurveillance/blob/master/layers/natural.shp",
         "id": "natural",
         "project": "Sous-Surveillance_Paris_Private-Public",
         "srs": ""
@@ -78,7 +78,7 @@
       "id": "landuse",
       "class": "",
       "Datasource": {
-        "file": "/Users/benoitpro/Downloads/TillMill/ile-de-france-latest.shp/landuse.shp"
+        "file": "http://github.com/N3bTcx/TileMill_SousSurveillance/blob/master/layers/landuse.shp"
       },
       "srs-name": "autodetect",
       "srs": "",
@@ -96,7 +96,7 @@
       "id": "places",
       "class": "",
       "Datasource": {
-        "file": "/Users/benoitpro/Downloads/TillMill/ile-de-france-latest.shp/places.shp"
+        "file": "http://github.com/N3bTcx/TileMill_SousSurveillance/blob/master/layers/places.shp"
       },
       "srs-name": "autodetect",
       "srs": "",
@@ -114,7 +114,7 @@
       "id": "background",
       "class": "",
       "Datasource": {
-        "file": "/Users/benoitpro/Downloads/TillMill/world_extent_wgs84.geojson"
+        "file": "http://github.com/N3bTcx/TileMill_SousSurveillance/blob/master/layers/world_extent_wgs84.geojson"
       },
       "srs-name": "autodetect",
       "srs": "",
@@ -133,7 +133,7 @@
       "id": "Paris_roads",
       "class": "",
       "Datasource": {
-        "file": "/Users/benoitpro/Downloads/TillMill/ile-de-france-latest.shp/roads.shp",
+        "file": "http://github.com/N3bTcx/TileMill_SousSurveillance/blob/master/layers/roads.shp",
         "id": "Paris_roads",
         "project": "Sous-Surveillance_Paris_Private-Public",
         "srs": ""
@@ -154,7 +154,7 @@
       "id": "cameras_pref",
       "class": "",
       "Datasource": {
-        "file": "/Users/benoitpro/Downloads/TillMill/Camera_WGS84.shp",
+        "file": "http://github.com/N3bTcx/TileMill_SousSurveillance/blob/master/layers/Camera_Pref.shp",
         "id": "cameras_pref",
         "project": "Sous-Surveillance_Paris_Private-Public",
         "srs": ""
