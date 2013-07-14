@@ -1,4 +1,6 @@
 /*
+WAIT A LITTLE BIT. MANY DATA TO CATCH !
+
 Data from :
 Pattern from http://subtlepatterns.com/
 OSM data from : http://downloads.cloudmade.com/europe/western_europe/france/ile-de-france#downloads_breadcrumbs

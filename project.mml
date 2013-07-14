@@ -39,10 +39,10 @@
       "id": "arrondissements",
       "class": "",
       "Datasource": {
-        "file": "http://github.com/N3bTcx/TileMill_SousSurveillance/blob/master/layers/ile-de-france_administrative.shp"
+        "file": "http://temp.sharesand.info/ile-de-france_administrative.shp"
       },
-      "srs-name": "autodetect",
-      "srs": "",
+      "srs-name": "WGS84",
+      "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs",
       "advanced": {},
       "name": "arrondissements"
     },
@@ -57,20 +57,20 @@
       "id": "natural",
       "class": "",
       "Datasource": {
-        "file": "http://github.com/N3bTcx/TileMill_SousSurveillance/blob/master/layers/natural.shp",
+        "file": "http://temp.sharesand.info/natural.shp",
         "id": "natural",
         "project": "Sous-Surveillance_Paris_Private-Public",
         "srs": ""
       },
-      "srs-name": "autodetect",
-      "srs": "",
+      "srs-name": "WGS84",
+      "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs",
       "advanced": {},
       "name": "natural"
     },
     {
       "geometry": "polygon",
       "extent": [
-        1.4133042,
+        1.4133042000000002,
         47.9764742,
         3.5224014,
         49.2764229
@@ -78,10 +78,10 @@
       "id": "landuse",
       "class": "",
       "Datasource": {
-        "file": "http://github.com/N3bTcx/TileMill_SousSurveillance/blob/master/layers/landuse.shp"
+        "file": "http://temp.sharesand.info/landuse.shp"
       },
-      "srs-name": "autodetect",
-      "srs": "",
+      "srs-name": "WGS84",
+      "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs",
       "advanced": {},
       "name": "landuse"
     },
@@ -96,10 +96,10 @@
       "id": "places",
       "class": "",
       "Datasource": {
-        "file": "http://github.com/N3bTcx/TileMill_SousSurveillance/blob/master/layers/places.shp"
+        "file": "http://temp.sharesand.info/places.shp"
       },
-      "srs-name": "autodetect",
-      "srs": "",
+      "srs-name": "WGS84",
+      "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs",
       "advanced": {},
       "name": "places"
     },
@@ -114,7 +114,7 @@
       "id": "background",
       "class": "",
       "Datasource": {
-        "file": "http://github.com/N3bTcx/TileMill_SousSurveillance/blob/master/layers/world_extent_wgs84.geojson"
+        "file": "http://temp.sharesand.info/world_extent_wgs84.geojson"
       },
       "srs-name": "autodetect",
       "srs": "",
@@ -133,13 +133,13 @@
       "id": "Paris_roads",
       "class": "",
       "Datasource": {
-        "file": "http://github.com/N3bTcx/TileMill_SousSurveillance/blob/master/layers/roads.shp",
+        "file": "http://temp.sharesand.info/roads.shp",
         "id": "Paris_roads",
         "project": "Sous-Surveillance_Paris_Private-Public",
         "srs": ""
       },
-      "srs-name": "autodetect",
-      "srs": "",
+      "srs-name": "WGS84",
+      "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs",
       "advanced": {},
       "name": "Paris_roads"
     },
@@ -154,13 +154,13 @@
       "id": "cameras_pref",
       "class": "",
       "Datasource": {
-        "file": "http://github.com/N3bTcx/TileMill_SousSurveillance/blob/master/layers/Camera_Pref.shp",
+        "file": "http://temp.sharesand.info/Camera_Pref.shp",
         "id": "cameras_pref",
         "project": "Sous-Surveillance_Paris_Private-Public",
         "srs": ""
       },
-      "srs-name": "autodetect",
-      "srs": "",
+      "srs-name": "WGS84",
+      "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs",
       "advanced": {},
       "name": "cameras_pref"
     },
