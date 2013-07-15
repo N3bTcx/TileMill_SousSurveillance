@@ -39,7 +39,7 @@
       "id": "arrondissements",
       "class": "",
       "Datasource": {
-        "file": "http://temp.sharesand.info/ile-de-france_administrative.shp"
+        "file": "http://temp.sharesand.info/ile-de-france_administrative.zip"
       },
       "srs-name": "WGS84",
       "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs",
@@ -57,7 +57,7 @@
       "id": "natural",
       "class": "",
       "Datasource": {
-        "file": "http://temp.sharesand.info/natural.shp",
+        "file": "http://temp.sharesand.info/natural.zip",
         "id": "natural",
         "project": "Sous-Surveillance_Paris_Private-Public",
         "srs": ""
@@ -78,7 +78,7 @@
       "id": "landuse",
       "class": "",
       "Datasource": {
-        "file": "http://temp.sharesand.info/landuse.shp"
+        "file": "http://temp.sharesand.info/landuse.zip"
       },
       "srs-name": "WGS84",
       "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs",
@@ -96,7 +96,7 @@
       "id": "places",
       "class": "",
       "Datasource": {
-        "file": "http://temp.sharesand.info/places.shp"
+        "file": "http://temp.sharesand.info/places.zip"
       },
       "srs-name": "WGS84",
       "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs",
@@ -133,7 +133,7 @@
       "id": "Paris_roads",
       "class": "",
       "Datasource": {
-        "file": "http://temp.sharesand.info/roads.shp",
+        "file": "http://temp.sharesand.info/roads.zip",
         "id": "Paris_roads",
         "project": "Sous-Surveillance_Paris_Private-Public",
         "srs": ""
@@ -154,7 +154,7 @@
       "id": "cameras_pref",
       "class": "",
       "Datasource": {
-        "file": "http://temp.sharesand.info/Camera_Pref.shp",
+        "file": "http://temp.sharesand.info/Camera_Pref.zip",
         "id": "cameras_pref",
         "project": "Sous-Surveillance_Paris_Private-Public",
         "srs": ""
