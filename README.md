@@ -17,6 +17,7 @@ This map use the data of :
 ### Get the files
 
 Click on [this adress](http://www.mapbox.com/tilemill/) to download TileMill, and download the files from here (zip or `git clone https://github.com/N3bTcx/TileMill_SousSurveillance.git` in `Mapbox\Projets\`). 
+After, when you will open it, it will download zip of every layers. It can be long, so be patient, and take a coffee. 
 
 ### Discussion on the map
 
@@ -24,7 +25,7 @@ Check the discussion and feedbacks on the support forum of MapBox : [Feedbacks n
 
 ### To Do
 
-* Add a real OSM background with buildings and streets
+* Add a real OSM background with buildings and streets (osm bright)
 * Add the number of cam threw each areas of Paris (the layer is already added)
 * Add the potential views of each cams (CCTV Bank, main cops cctv)
 * Manage layers (private, public)

@@ -1,5 +1,5 @@
 /*
-WAIT A LITTLE BIT. MANY DATA TO CATCH !
+WAIT A LITTLE BIT. MANY DATA TO CATCH ! Take a cafe and come back in 10min.
 
 Data from :
 Pattern from http://subtlepatterns.com/
