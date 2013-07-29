@@ -4,11 +4,13 @@ WAIT A LITTLE BIT. MANY DATA TO CATCH ! Take a cafe and come back in 10min.
 Data from :
 Pattern from http://subtlepatterns.com/
 OSM data from : http://downloads.cloudmade.com/europe/western_europe/france/ile-de-france#downloads_breadcrumbs
+CCTV crowd-mapped : http://www.sous-surveillance.net/?page=cameras&format=json 
+CCTV from Paris : http://www.data.gouv.fr/DataSet/551635
 
 To Do:
 Use data like :
 - http://geojason.info/2011/the-open-streets-style-for-tilemill/
-- https://github.com/mapbox/osm-bright
+- https://github.com/mapbox/osm-bright : http://a.tiles.mapbox.com/v3/n3b.OSMBright/page.html
 */
 
 Map {
@@ -36,6 +38,7 @@ Map {
   marker-fill:#166124;
 }
 
+
 #camerasousu [zoom < 16]{
   marker-width:5;
   marker-allow-overlap:true;
@@ -45,11 +48,21 @@ Map {
 }
 
 #camerasousu [zoom > 15]{
-  marker-width:7;
+  marker-width:5;
   marker-allow-overlap:true;
   [op_type = 'private']{marker-fill:#4976ff;marker-allow-overlap:true;}
   [op_type = 'public'] {marker-fill:#ca2222;}
   [op_type != 'public'][op_type != 'private']{marker-fill:#bac922;}
+}
+
+//Zones CCTV 
+#camerasousu [zoom = 13]{
+  marker-comp-op:overlay;
+  marker-line-width:0;
+  marker-allow-overlap:true;
+  [op_type = 'private']{marker-fill:#1d677a;marker-fill-opacity:0.88;marker-width:20;}
+  [op_type = 'public'] {marker-fill:#ca2222;marker-fill-opacity:0.28;marker-width:30;}
+  [op_type != 'public'][op_type != 'private']{marker-fill:#bac922;marker-fill-opacity:0.18;marker-width:20;}
 }
 
 #background {
@@ -70,6 +83,7 @@ Map {
   line-width:0.5;
   polygon-opacity:0.7;
   polygon-fill:#ae8;
+  //polygon-comp-op:soft-light;
 }
 
 #arrondissements {

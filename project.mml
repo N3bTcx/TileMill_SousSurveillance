@@ -1,13 +1,13 @@
 {
   "bounds": [
-    2.2585,
-    48.8148,
-    2.4318,
-    48.9065
+    2.2494,
+    48.8159,
+    2.4269,
+    48.9031
   ],
   "center": [
-    2.3449,
-    48.8673,
+    2.3482,
+    48.8634,
     13
   ],
   "format": "png",
@@ -101,7 +101,8 @@
       "srs-name": "WGS84",
       "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs",
       "advanced": {},
-      "name": "places"
+      "name": "places",
+      "status": "off"
     },
     {
       "geometry": "polygon",
@@ -187,7 +188,7 @@
   "metatile": 1,
   "_basemap": "",
   "name": "Sous_Surveillance_TileMill",
-  "description": "Go on http://paris.sous-surveillance.net to get more infos.",
+  "description": "Go on http://paris.sous-surveillance.net to get more infos or https://github.com/N3bTcx/TileMill_SousSurveillance.",
   "attribution": "",
   "legend": "<strong>Sous-Surveillance Paris.</strong><br/>Private/Public/Unmapped cctv cameras. <br />\n<span style='color:#4976ff'><strong>•</strong></span> Private <br />\n<span style='color:#ca2222'><strong>•</strong></span> Public <br />\n<span style='color:#bac922'><strong>•</strong></span> Not specified<br /> \n<span style='color:#166124'><strong>•</strong></span> Prefecture (unmaped on Sous-Surveillance)"
 }
