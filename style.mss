@@ -16,6 +16,7 @@ Use data like :
 Map {
   background-color: #ffffff;
 }
+
 #Paris_roads {
   line-width:1;
   line-color:#ff6f00;
@@ -26,43 +27,6 @@ Map {
   line-color:#ffffff;
   line-opacity:0.1;
   [type = 'riverbank']{polygon-opacity:0.2;polygon-fill:#53bbb6;} 
-}
-
-#cameras_pref [zoom < 16]{
-  marker-width:3;
-  marker-fill:#166124;
-}
-
-#cameras_pref [zoom > 15]{
-  marker-width:5;
-  marker-fill:#166124;
-}
-
-
-#camerasousu [zoom < 16]{
-  marker-width:5;
-  marker-allow-overlap:true;
-  [op_type = 'private']{marker-fill:#4976ff;marker-allow-overlap:true;}
-  [op_type = 'public'] {marker-fill:#ca2222;}
-  [op_type != 'public'][op_type != 'private']{marker-fill:#bac922;}
-}
-
-#camerasousu [zoom > 15]{
-  marker-width:5;
-  marker-allow-overlap:true;
-  [op_type = 'private']{marker-fill:#4976ff;marker-allow-overlap:true;}
-  [op_type = 'public'] {marker-fill:#ca2222;}
-  [op_type != 'public'][op_type != 'private']{marker-fill:#bac922;}
-}
-
-//Zones CCTV 
-#camerasousu [zoom = 13]{
-  marker-comp-op:overlay;
-  marker-line-width:0;
-  marker-allow-overlap:true;
-  [op_type = 'private']{marker-fill:#1d677a;marker-fill-opacity:0.88;marker-width:20;}
-  [op_type = 'public'] {marker-fill:#ca2222;marker-fill-opacity:0.28;marker-width:30;}
-  [op_type != 'public'][op_type != 'private']{marker-fill:#bac922;marker-fill-opacity:0.18;marker-width:20;}
 }
 
 #background {
@@ -91,3 +55,43 @@ Map {
   line-opacity:0.5;
   line-color:#94650c;
 }
+
+#cameras_pref [zoom < 16]{
+  marker-width:4;
+  marker-fill:#1ac339;
+  //marker-line-color:#ffffff;
+}
+
+#cameras_pref [zoom > 15]{
+  marker-width:6;
+  marker-fill:#1ac339;
+  marker-line-color:#ffffff;
+}
+#camerasousu [zoom < 16]{
+  marker-width:6;
+  marker-allow-overlap:true;
+  marker-line-color:#ffffff;  
+  [op_type = 'private']{marker-fill:#4976ff;marker-allow-overlap:true;}
+  [op_type = 'public'] {marker-fill:#ca2222;}
+  [op_type != 'public'][op_type != 'private']{marker-fill:#ffdf02;}
+}
+
+#camerasousu [zoom > 15]{
+  marker-width:6;
+  marker-allow-overlap:true;
+  marker-line-color:#ffffff;  
+  [op_type = 'private']{marker-fill:#4976ff;marker-allow-overlap:true;}
+  [op_type = 'public'] {marker-fill:#ca2222;}
+  [op_type != 'public'][op_type != 'private']{marker-fill:#ffdf02;}
+}
+
+//Zones CCTV 
+#camerasousu [zoom < 14]{
+  marker-comp-op:overlay;
+  marker-line-width:0;
+  marker-allow-overlap:true;  
+  [op_type = 'private']{marker-fill:#1d677a;marker-fill-opacity:0.88;marker-width:16;}
+  [op_type = 'public'] {marker-fill:#ca2222;marker-fill-opacity:0.28;marker-width:20;}
+  [op_type != 'public'][op_type != 'private']{marker-fill:#ffdf02;marker-fill-opacity:0.18;marker-width:16;}
+}
+

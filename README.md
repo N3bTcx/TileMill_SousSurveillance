@@ -8,11 +8,12 @@ This map use the data of :
 
 ### Screenshot
 
-![Screenshot](Sous-Surveillance_Paris_Private-Public.png)
+![bit.ly/172nn2u](Sous-Surveillance_Paris_Private-Public.png)](bit.ly/172nn2u)
+
 
 ### Use this map
 
-[The project online](http://support.mapbox.com/discussions/tilemill/6675/r?go=aHR0cDovL2EudGlsZXMubWFwYm94LmNvbS92My9uM2IuU291cy1TdXJ2ZWlsbGFuY2VfUGFyaXNfUHJpdmF0ZS1QdWJsaWMvcGFnZS5odG1s)
+[The project online](bit.ly/172nn2u)
 
 ### Get the files
 
@@ -26,7 +27,6 @@ Check the discussion and feedbacks on the support forum of MapBox : [CCTV mappin
 ### In Progress
 
 * Add a real OSM background with buildings and streets (osm bright) 
-** [OSM Bright version](http://a.tiles.mapbox.com/v3/n3b.OSMBright/page.html#13/48.8618/2.3483). 
 * Add the potential views of each cams (CCTV Bank, main cops cctv)
 ** In progress; with define rules for each cams (size of `marker-width`)
 * Add color gradient to see the % of cams per meter
