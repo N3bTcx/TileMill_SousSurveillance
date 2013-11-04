@@ -8,7 +8,7 @@ This map use the data of :
 
 ### Screenshot
 
-![bit.ly/172nn2u](Sous-Surveillance_Paris_Private-Public.png)](bit.ly/172nn2u)
+[![bit.ly/172nn2u](Sous-Surveillance_Paris_Private-Public.png)](bit.ly/172nn2u)
 
 
 ### Use this map
