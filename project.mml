@@ -22,7 +22,7 @@
     ]
   },
   "minzoom": 12,
-  "maxzoom": 16,
+  "maxzoom": 19,
   "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
   "Stylesheet": [
     "style.mss"
@@ -169,9 +169,9 @@
       "geometry": "point",
       "extent": [
         -122.413666,
-        4.938269414080025,
-        10.01329243183136,
-        53.52113135836307
+        4.853270328324228,
+        27.66509771347046,
+        53.966320645757364
       ],
       "id": "camerasousu",
       "class": "",

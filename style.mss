@@ -13,7 +13,7 @@ Use data like :
 - https://github.com/mapbox/osm-bright : http://a.tiles.mapbox.com/v3/n3b.OSMBright/page.html
 */
 
-Map {
+/*Map {
   background-color: #ffffff;
 }
 
@@ -54,7 +54,7 @@ Map {
   line-width:2;
   line-opacity:0.5;
   line-color:#94650c;
-}
+}*/
 
 #cameras_pref [zoom < 16]{
   marker-width:4;
@@ -84,7 +84,7 @@ Map {
   [op_type = 'public'] {marker-fill:#ca2222;}
   [op_type != 'public'][op_type != 'private']{marker-fill:#ffdf02;}
 }
-
+/*
 //Zones CCTV 
 #camerasousu [zoom < 14]{
   marker-comp-op:overlay;
@@ -93,5 +93,5 @@ Map {
   [op_type = 'private']{marker-fill:#1d677a;marker-fill-opacity:0.88;marker-width:16;}
   [op_type = 'public'] {marker-fill:#ca2222;marker-fill-opacity:0.28;marker-width:20;}
   [op_type != 'public'][op_type != 'private']{marker-fill:#ffdf02;marker-fill-opacity:0.18;marker-width:16;}
-}
+}*/
 
